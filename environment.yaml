@@ -1,0 +1,26 @@
+name: customer-churn-prediction
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pandas
+  - numpy
+  - scikit-learn
+  - xgboost
+  - lightgbm
+  - pip
+  - pip:
+      - mlflow
+      - dvc
+      - great_expectations
+      - optuna
+      - fastapi
+      - uvicorn
+      - evidently
+      - prometheus-client
+      - pytest
+      - black
+      - isort
+      - pre-commit
+      - pyyaml

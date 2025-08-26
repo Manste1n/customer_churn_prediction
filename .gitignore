@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Tools & caches
+.pytest_cache/
+.mypy_cache/
+.tox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# MLflow / experiments / artifacts
+mlruns/
+models/trained_models/
+models/model_metadata/
+
+# Data (adjust if you want some tracked)
+data/raw/
+data/processed/
+
+# Build & distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Logs & temp
+*.log
+logs/
+tmp/
+.temp/
+
+# Env files
+.env
+.env.*
+.python-version
+
+# Docker/Compose artifacts
+*.pid
+
+# Node (if any front-end subdirs)
+node_modules/
+
